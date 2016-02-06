@@ -1,0 +1,19 @@
+h1 {
+  color: #f400dd;
+  /*border-color: purple;
+  border-width: 5px;
+  border-style: solid;*/
+  border: 5px dotted purple;
+}
+
+h4 {
+  background: #ff9900;
+}
+
+
+body {
+  background-color: pink;
+  /*background: url(https://pencilart.hdtheme.co/photos/pencil-art/pencil-drawing-nature-hd-image-nature-9bf31c7ff062936a96d3c8bd1f8f2ff3-big-15.jpg) no-repeat center center fixed;
+  background-repeat: no-repeat;
+  background-size: cover;*/
+}

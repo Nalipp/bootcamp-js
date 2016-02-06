@@ -1,0 +1,42 @@
+/*border color: #bdc3c7*/
+/*date color: #3498db*/
+/*h2 color #2c3e50*/
+
+/*font: source sans pro*/
+
+body {
+  border: 20px solid #bdc3c7;
+  margin: 20px auto;
+  max-width: 700px;
+  width: 80%;
+  font-family: "source sans pro";
+  padding: 25px
+}
+
+h2 {
+  font-size: 2.0rem;
+  color: #2c3e50;
+}
+
+.date {
+  color: #3498db;
+  text-transform: uppercase;
+  letter-spacing: 0.4rem;
+  padding-top: 20px;
+}
+
+p {
+  line-height: 1.5;
+}
+
+.text-bar {
+  border-left: 6px solid #bdc3c7;
+  padding-left: 6px;
+}
+
+hr {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
