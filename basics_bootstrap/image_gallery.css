@@ -1,0 +1,40 @@
+body {
+  padding-top: 80px;
+}
+
+.navbar-inverse {
+  background: #2c3e50;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color: #ecf0f1;
+}
+
+.navbar-inverse .navbar-brand {
+  color: #ecf0f1;
+}
+
+.jumbotron {
+  background-color: #ecf0f1;
+}
+
+.btn-danger {
+  border-color: purple;
+  background-color: purple;
+}
+
+.btn-danger:hover {
+  color: #fff;
+  background-color: black;
+  border-color: black;
+}
+
+.pink {
+  background: pink;
+  border: 1px solid purple;
+}
+
+.orange {
+  background: orange;
+  border: 1px solid brown;
+}
