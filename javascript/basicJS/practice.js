@@ -41,3 +41,15 @@
 // for(var i = 0; i < str.length; i++) {
 //   console.log(str[i]);
 // }
+
+// var colors = ['red', 'orange', 'yellow', 'blue']
+//
+// for(var i = 0; i < colors.length; i++) {
+//   console.log(colors[i]);
+// }
+
+var numbers = [1,2,3,4,5,6,7,8,9,10];
+
+for(var i = 0; i < numbers.length; i++) {
+  console.log(numbers[i]);
+}
