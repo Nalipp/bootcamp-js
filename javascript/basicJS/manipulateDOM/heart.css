@@ -1,0 +1,22 @@
+.fa-circle-thin {
+  color: lightblue;
+  font-size: 5px;
+}
+
+.fa-circle {
+  color: lightblue;
+  font-size: 5px;
+}
+
+.pixel {
+  border: 1px solid lightblue;
+  padding: 6px;
+}
+
+.pixel-no-color {
+  background-color: white;
+}
+
+.pixel-color {
+  background-color: lightblue;
+}

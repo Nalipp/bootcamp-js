@@ -1,0 +1,16 @@
+.selected {
+  color: red;
+}
+
+.new-font {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  font-family: arial;
+  color: red;
+}
+
+.done {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
