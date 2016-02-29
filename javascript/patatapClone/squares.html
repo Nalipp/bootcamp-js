@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Squares</title>
+    <script type="text/javascript" src="js/paper-full.js"></script>
+    <link rel="stylesheet" href="squares.css">
+    <script type="text/paperscript" canvas="myCanvas">
+
+    var background = new Image();
+    background.src = "https://cdn.photographylife.com/wp-content/uploads/2014/06/Nikon-D810-Image-Sample-6.jpg";
+
+    var path = new Path();
+
+    // for(var x = 0; x < 1300; x+=20){
+    //   for(var y = 0; y < 680; y+=20){
+    //     var rectangle = new Rectangle(new Point(x, y), new Point(100, 100));
+    //     var path = new Path.Rectangle(rectangle);
+    //     path.selected = true;
+    //     path.fillColor = '#AAFF20';
+    //   }
+    // }
+
+    function colorArr(){
+      var list = ['#485FFF', '#0100BD', '#EA51C2', '#AAFF20']
+      return list[randCol()];
+    }
+
+    function randCol(){
+      var num = Math.floor(Math.random() * 4)
+      return num
+    }
+
+    function randRmv(){
+
+    }
+
+
+    </script>
+  </head>
+  <body>
+    <nav><button>remove</button></nav>
+
+
+    <canvas id="myCanvas" resize></canvas>
+  </body>
+</html>

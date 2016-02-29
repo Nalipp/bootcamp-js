@@ -67,6 +67,6 @@ $('input[type="text"').keypress(function(event){<br>
   if(event.which === 13){<br>
     var todoText = $(this).val();<br>
     $(this).val('');<br>
-    '''$('ul').append('<li>' + todoText + '</li>')<br>'''
+    $('ul').append('<li>' + todoText + '</li>')<br>
   }<br>
 });<br>
